@@ -1,0 +1,163 @@
+.loginBtn{
+    border:1px solid orange;
+    border-radius: 14px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: orange;
+}
+.cart{
+    padding: 14px;
+    border-radius: 45%;
+   
+    background-color: rgb(235, 230, 230);
+}
+.one{
+    background-color: #F4F8F9;
+}
+.title{
+    position: absolute;
+width: 475px;
+height: 148px;
+left: 691px;
+top: 201px;
+    color: #999999;
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+}
+.smalltitle{
+    position: absolute;
+width: 381px;
+height: 126px;
+left: 730px;
+top: 320px;
+
+font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+
+color: #999999;
+}
+.shopBtn{
+    position: absolute;
+width: 157px;
+height: 48px;
+left: 850px;
+top: 440px;
+
+font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 38px;
+border: 1px solid orange;
+background-color: orange;
+border-radius: 14px;
+color: white;
+}
+.nav-link:hover{
+    background-color:orange;
+    border-radius: 15px;
+}
+.loginBtn:hover{
+    background-color: orange;
+    color: white;
+}
+.cart:hover{
+    background-color: orange;
+    color: white;
+}
+.shopBtn:hover{
+    background-color: white;
+    color: orange;
+}
+.third{
+    height: 250px;
+}
+.two{
+    background-color: #D9D9D9;
+    height: 280px;
+    align-items: center;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Inter';
+}
+.checked {
+    color: orange;
+  }
+.title-img{
+    color: grey;
+    font-size: 22px;
+    font-weight: bold;
+}
+.fourth{
+    font-family: 'Ibarra Real Nova';
+    background-color: rgba(255, 136, 57, 0.8);
+    font-style: italic;
+    border: 1px solid rgba(255, 136, 57, 0.8);
+    border-top-left-radius: 160px;
+    border-bottom-right-radius: 160px;
+    color: white;
+    height: 270px;
+    align-items: center;
+    padding-top: 30px;
+}
+.fifth{
+   height: 400px;
+   margin-top: 40px;
+   color: white;
+   font-family: 'Ibarra Real Nova';
+}
+.fifth h2{
+    padding-top: 60px;
+    color: black;
+    font-family: 'Ibarra Real Nova';
+    font-size: 40px;
+}
+.btnMore{
+    background-color:#6F2B0D;;
+    color: white;
+    border: 1px solid #6F2B0D;;
+    border-radius: 16px;
+    width: 150px;
+    font-size: 23px;
+}
+.btnMore:hover{
+    background-color: orange;
+    color: white;
+}
+.fifth p{
+    font-size: 20px;
+}
+img:hover{
+    opacity: 60%;
+        -webkit-filter: brightness(.5);
+        filter: brightness(1);
+     
+}
+.end{
+    color: black;
+    background-color: rgb(155, 154, 154);
+    font-family: 'Ibarra Real Nova';
+}
+.end a{
+    text-decoration: none;
+}
+.end p:hover{
+    color: white;
+}
+.inte{
+    align-items: center;
+}
+.seond{
+    text-align: right;
+}

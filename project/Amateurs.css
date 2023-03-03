@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@1,100&display=swap');
+*{
+    
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color:#96CEB4 ;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    text-decoration: none;
+    color:#D9534F;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: 'Playfair Display', serif;
+}
+.navigation a{
+color: #FFEEAD;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color:#D9534F ;
+}
+section {
+    padding: 100px 200px;
+}
+.nn a{
+    color: #FFEEAD;
+    text-decoration: none;
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-right: 30px;
+    padding: 30px;
+    margin-left: 90px;
+    
+    }
+    
+    .nn a:hover{
+        color:#D9534F ;
+    }
+    
+    
+     
+    /*  dropdown*/
+    .dropbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        color: #000;
+      }
+     
+      .dropdown a:hover{
+        color: #D9534F;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #5d5656;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+      }
+      
+      .dropdown-content a:hover {background-color:#ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+      .dropdown span{
+        color:#FFEEAD;
+        margin-left: 100px;
+      }
+      
+    .menu{
+        font-family: 'Poppins', sans-serif;
+        background-color:#92cab0 ;
+        color: #FFEEAD;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        padding-left: 30px;
+       
+    }
+    .menu a{
+        color:#FFEEAD;
+    
+    }
+    .menu a:hover{
+        color:#D9534F ;
+
+    }
+      
+      input {
+        background-color: #eee;
+        border: none;
+        
+
+    } 
+    
+
+/* cards */
+#amcards{
+    background-color: #eee;
+}
+.title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+color: #D9534F;
+font-size: 2.2em;
+font-weight: 500;
+margin-bottom: 30px;
+
+}
+
+.content{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 15.25em;
+    box-shadow: 0 5px 25px rgba(1 1 /15);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 21px;
+    
+transition: 0.7s ease;
+}
+.card:hover{
+transform: scale(1.1);
+}
+
+.icon img{
+    font-size: 8em;
+    text-align: center;
+    height: 250px;
+    width: 190px;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #171a18;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p{
+    color: #363636;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+.bs{
+    background-image: url(imgs/amahe.jpg);
+    background-size: cover;
+}
+.bs p{
+font-weight: 300;    }
+.bs span{
+color: #D9534F;
+}
+.footer{
+    background-color: #96CEB4;
+    color: #D9534F;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    }
+    .footertitle{
+        font-size: 0.9em;
+        font-weight: 300;
+    
+    }
+    .footertitle span{
+        color :#FFEEAD;
+    }
+    .footer .social-icons a{
+        color: #D9534F;
+        font-size: 1.3em;
+        padding: 0 12px 0 0;
+    }

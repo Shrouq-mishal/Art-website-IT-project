@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@1,100&display=swap');
+*{
+    
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color:#96CEB4 ;
+    width: 100%;
+    position:static;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+.logo{
+    text-decoration: none;
+    color:#D9534F;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: 'Playfair Display', serif;
+   
+    
+
+}
+.navigation a{
+color: #FFEEAD;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+}
+.navigation a:hover{
+    color:#D9534F ;
+}
+section {
+    padding: 100px 200px;
+}
+.nn a{
+    color: #FFEEAD;
+    text-decoration: none;
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-right: 30px;
+    padding: 30px;
+    margin-left: 90px;
+    
+    }
+    
+    .nn a:hover{
+        color:#D9534F ;
+    }
+    
+    
+     
+    /*  dropdown*/
+    .dropbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        color: #000;
+      }
+     
+      .dropdown a:hover{
+        color: #D9534F;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #857575;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+      }
+      
+      .dropdown-content a:hover {background-color:#ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+      .dropdown span{
+        color:#FFEEAD;
+        margin-left: 100px;
+      }
+      
+    .menu{
+        font-family: 'Poppins', sans-serif;
+        background-color:#92cab0 ;
+        color: #FFEEAD;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        padding-left: 30px;
+       
+    }
+    .menu a{
+        color:#FFEEAD;
+    
+    }
+    .menu a:hover{
+        color:#D9534F ;
+
+    }
+      
+      input {
+        background-color: #eee;
+        border: none;
+        
+
+    } 
+    /* main sections*/
+section{
+    padding: 100px 200px ;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imgs/pexels-daian-gan-102127.jpg)no-repeat;
+    background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.main h2{
+color: black;
+font-size: 1.4em;
+font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #D9534F;
+    font-size: 3em;
+font-weight: 600;
+}
+.main h3{
+    color: #96CEB4;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.mainbutton{
+    color: #96CEB4;
+    background-color: #FFEEAD;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.187em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.5s ease;
+}
+.mainbutton:hover{
+    color: #FFEEAD;
+    background-color: #96CEB8;
+    transform: scale(1.05);
+}
+.social-icons a {
+    color: #D9534F;
+    font-size: 1.7em;
+    padding-right: 30px;}
+
+
+
+.about,.textitem{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.bbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eee;
+    
+	
+}
+.about{
+    margin: 100px auto;
+    width: 100%;
+}
+img{
+    max-width: 379px;
+    float: right;
+    margin-left: 15px;
+}
+.textitem{
+    color: #D9534F;
+}
+.textitem span.art{
+    font-family: 'Playfair Display', serif;  
+}
+
+.textitem h2{
+    text-align: left;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+.textitem h3{
+    color: #96CEB4;
+}
+.textitem p{
+    font-size: 16px;
+    color: black;
+}
+.textitem2 img{
+    max-width: 379px;
+    float: left;
+    margin-right: 25px;
+}
+.textitem2{
+    color: #D9534F;
+}
+.textitem2 h2{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+.smallbuy{
+    text-align: center;
+    color:#16b46a;
+}
+.textitem2 p{
+    font-size: 16px;
+   color: #000;
+}
+
+.textitem2 p span{
+    color: #3e8e41;
+    text-transform:uppercase ;
+}
+
+
+
+/*  new art work     */
+.newArt{
+  background: url(imgs/pexels-pixabay-277054.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    
+}
+
+.newArt .content{
+   
+text-align: center;
+ 
+}
+
+.photo-card{
+   background-color: white;
+    border: 5px solid white;
+    min-height: 10em;
+    width: 13em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+    box-shadow: 0 5px 25px  rgba(1 1 1 / 50%);
+   
+
+}
+.photo-card:hover{
+    transform: scale(1.1);
+}
+
+.project-image img{
+width: 100%;
+}
+
+.photo-info{
+padding: 1em;
+size: 2;
+
+}
+
+.photo-title{
+    font-size: 7;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.newArt h1{
+display: inline-block;
+ margin: 20px;
+ color:#D9534F;
+ font-size: 45px;
+ font-weight: 600;
+ border-width: 7px;
+ border-color:#D9534F;
+ letter-spacing: 4px;
+ padding: 30px 200px;
+ text-align: center;
+
+ 
+}
+.newArt span.art{
+    font-family: 'Playfair Display', serif;  
+}
+/* footer*/
+
+.footer{
+    background-color: #96CEB4;
+    color: #D9534F;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    }
+    .footertitle{
+        font-size: 0.9em;
+        font-weight: 300;
+    
+    }
+    .footertitle span{
+        color :#FFEEAD;
+    }
+    .footer .social-icons a{
+        color: #D9534F;
+        font-size: 1.3em;
+        padding: 0 12px 0 0;
+    }

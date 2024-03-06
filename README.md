@@ -1,4 +1,4 @@
-# Art-website-IT-project
+# Art-website-IT-project👩‍🎨🎨
 We have created a site that allows people to sell and 
 display their paintings easily and without commission. 
 The site is divided into several sections so that any 
